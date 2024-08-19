@@ -1,0 +1,65 @@
+@import url('/src/styles/globalStyles.css');
+
+.banner {
+  background-color: rgba(18, 18, 20, 1);
+  padding: 80px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.banner__intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.banner__introImage {
+  border-radius: 50%;
+}
+
+.banner__introText {
+  color: var(--gray-2);
+  font-size: 16px;
+}
+
+.banner__title {
+  font-weight: var(--title-1-weigth);
+  font-size: var(--title-1-size);
+  width: 40%;
+  color: var(--gray-1);
+}
+
+.banner__titlehighlight {
+  color: var(--color-primary);
+}
+
+.banner__description {
+  color: var(--gray-3);
+  width: 40%;
+}
+
+.banner__actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.banner__button {
+  background-color: var(--color-primary);
+  color: rgba(255, 255, 255, 1);
+  padding: 10px 10px;
+  border-radius: 6px;
+  border: none;
+
+}
+
+.banner__icons {}
+
+.banner__icon {
+
+  margin-left: 20px;
+
+}

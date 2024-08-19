@@ -1,0 +1,65 @@
+@import url('/src/styles/globalStyles.css');
+
+
+.projectCard {
+    color: white;
+    display: flex;
+    background-color:  rgba(18, 18, 20, 1);
+    padding: 80px 80px;
+}
+
+.projectContent {
+ width: 100%;
+}
+
+.projectTitle {
+    width: 60%;
+    color: var(--gray-1);
+   
+}
+
+.projectHighlight {
+    color: var(--color-primary);
+}
+
+.projectDescription {
+    color: var(--gray-3);
+    width: 60%;
+}
+
+.projectContact {
+    display: flex; 
+    flex-direction: column;
+   
+    width: 1000px;
+}
+
+.contactItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.contactIcon{
+    width: 20px;
+    height: 20px;
+}
+
+.contactDetails{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.contactTitle{
+    margin-bottom: 0px;
+    color: var(--gray-1);
+}
+.contactText{
+    color: var(--gray-3);
+    margin-bottom: 0px;
+    width: 90%;
+}
+.contactAction{
+    color: var(--gray-1);
+}

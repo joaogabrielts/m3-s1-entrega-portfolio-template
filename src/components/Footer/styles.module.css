@@ -1,0 +1,41 @@
+@import url('/src/styles/globalStyles.css');
+
+
+.footer{
+ background-color: rgba(10, 10, 11, 1);
+ display: flex;
+ align-items: center;
+ padding: 20px 80px;
+ gap: 20px;
+}
+
+.footerContent{
+ margin-left: 0;
+}
+.footerLogo{
+    border-radius: 50%;
+    height: 40px;
+}
+.footerTitle{
+ color: var( --gray-1);
+}
+.footerText{
+ color: var(--gray-3);
+}
+.socialLinks{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.socialItem{
+ list-style: none;
+ margin-right: 8px;
+}
+.socialButton{
+    border: none;
+    background-color: rgba(10, 10, 11, 1);
+    border-radius: 50%;
+}
+.socialIcon{
+
+}

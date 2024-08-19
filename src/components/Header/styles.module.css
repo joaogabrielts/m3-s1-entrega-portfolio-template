@@ -1,0 +1,42 @@
+
+@import url('/src/styles/globalStyles.css');
+
+.header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px 80px;
+ background-color:  rgba(10, 10, 11, 1);
+ ;
+}
+
+
+.header__title{
+  font-size: var(--title-1-size);
+  font-weight: var(--title-1-weigth);
+  color: var(--gray-1);
+
+}
+
+.header__nav{
+ display: flex;
+ gap: 10px;
+}
+
+.header__navitem{
+ color: var(--gray-3);
+}
+
+.header__navbuttonhome{
+    border: none;
+    background-color:var(--gray-0) ;
+    color: var(--gray-1);
+    font-weight: var(--title-4-weigth);
+}
+.header__navbutton{
+    border: none;
+    background-color:var(--gray-0) ;
+    color: var(--gray-3);
+    font-weight: var(--title-4-weigth); 
+}
+
