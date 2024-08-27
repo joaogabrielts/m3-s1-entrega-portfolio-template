@@ -1,4 +1,4 @@
-@import url('/src/styles/globalStyles.css');
+@import url("/src/styles/globalStyles.css");
 
 
 .projectCard {
@@ -43,6 +43,21 @@
 .contactIcon{
     width: 20px;
     height: 20px;
+}
+#whatsappBottom{
+    background: linear-gradient(to bottom,rgba(80, 197, 113, 1),rgba(80, 207, 154, 1));
+    padding: 20px;
+    border-radius: 10px;
+}
+#emailBottom{
+    background: linear-gradient(to bottom,rgba(189, 59, 155, 1),rgba(238, 91, 199, 1));
+    padding: 20px;
+    border-radius: 10px;
+}
+#linkedinBottom{
+    background: linear-gradient(to bottom,rgba(78, 115, 255, 1),rgba(80, 108, 207, 1));
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .contactDetails{

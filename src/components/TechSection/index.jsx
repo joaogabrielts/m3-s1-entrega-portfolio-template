@@ -1,6 +1,6 @@
 import { TechaCard } from "../../Fragments/techaCard"
-import { projects } from '../../data/projects'
-import styles from './styles.module.css'
+import { projects } from "../../data/projects"
+import styles from "./styles.module.css"
 
 
 export const TechSection = () => {

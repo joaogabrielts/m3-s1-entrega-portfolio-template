@@ -1,6 +1,6 @@
 
 
-import styles from './style.module.css'
+import styles from "./style.module.css"
 
 export const ProjectCard = () => {
     return (
@@ -12,7 +12,7 @@ export const ProjectCard = () => {
             <aside className={styles.projectContact}>
 
                 <div className={styles.contactItem} >
-                    <img src="/src/assets/whatsapp-icon.png" alt="" className={styles.contactIcon} />
+                    <img src="/whatsapp.svg" alt="imagem de whatsapp" id={styles.whatsappBottom} className={styles.contactIcon} />
 
                     <div className={styles.contactDetails}>
                         <h3 className={styles.contactTitle}>My phone</h3>
@@ -24,7 +24,7 @@ export const ProjectCard = () => {
                 <div className={styles.contactItem}>
 
 
-                    <img src="/src/assets/github-icon.png" alt="" className={styles.contactIcon} />
+                    <img src="/email.svg" alt="imagem do email" id={styles.emailBottom}   className={styles.contactIcon} />
 
                     <div className={styles.contactDetails}>
                         <h3 className={styles.contactTitle}>My email</h3>
@@ -35,7 +35,7 @@ export const ProjectCard = () => {
 
                 </div>
                 <div className={styles.contactItem}>
-                    <img src="/src/assets/linkedin-icon.png" alt=""  className={styles.contactIcon}/>
+                    <img src="/linkedin.svg" alt="imagem linkedin" id={styles.linkedinBottom} className={styles.contactIcon}/>
                     <div className={styles.contactDetails}>
                         <h3 className={styles.contactTitle}>My LinkdIn</h3>
                         <p className={styles.contactText}>We can create more constant interactions as well as a sharing network</p>

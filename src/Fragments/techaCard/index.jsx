@@ -1,4 +1,4 @@
-import styles from './styles.module.css'
+import styles from "./styles.module.css"
 
 export const TechaCard = ({ projectsList }) => {
 
@@ -12,20 +12,20 @@ export const TechaCard = ({ projectsList }) => {
                     < div key={empLoyee.name} className={styles.techCard}>
 
 
-                        <h1>Quickstart </h1>
+                        <h1 className={styles.techCardTitle}>Quickstart </h1>
                         <div className={styles.linguagens}>
                             <p>linguagens</p>
-                            <p>Javacript</p>
+                            <p className={styles.buttonLinguagens}>Javacript</p>
                         </div>
                         <p>{empLoyee.description}</p>
                         <div className={styles.icone__container}>
                             <div className={styles.icone__github}>
-                                <img src="/src/assets/github-icon.png" alt=""  className={styles.iconImage}/>
+                                <img src="/github.svg" alt="icon github"  className={styles.iconImage}/>
                                 <p>Github Code</p>
                             </div>
 
                             <div className={styles.icone__share}>
-                                <img src="/src/assets/share.png" alt=""  className={styles.iconImage}/>
+                                <img src="/share.png" alt="icon share"  className={styles.iconImage}/>
                                 <p>Aplicação</p>
                             </div>
 

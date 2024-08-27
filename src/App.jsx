@@ -1,6 +1,6 @@
 import { ContactPage } from "./ContactPage"
  
- import './styles/globalStyles.css'
+ import "./styles/globalStyles.css"
 
 
 function App() {
