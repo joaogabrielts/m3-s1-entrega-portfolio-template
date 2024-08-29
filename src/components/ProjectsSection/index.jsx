@@ -31,7 +31,7 @@ export const ProjectCard = () => {
                         <p className={styles.contactText}>Send me an email reporting feedbacks,suggestions and ideas </p>
                         <p className={styles.contactAction}>Send email now</p>
                     </div>
-
+ 
 
                 </div>
                 <div className={styles.contactItem}>

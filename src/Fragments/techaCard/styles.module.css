@@ -5,54 +5,63 @@
 
 
 
-.techCard{
-    display: flex;
-    flex-direction: column;
-  flex-wrap: wrap; 
-  color: white;
+.techCard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
  
+  color: var(--gray-3);
+
 }
-.techCardTitle{
+
+.techCardTitle {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 700;
+   color: white;
 }
 
 
-.linguagens{
-    display: flex;
-    gap: 10px;
+.linguagens {
+  display: flex;
+  color: var(--gray-3);
+  gap: 10px;
 }
 
-.buttonLinguagens{
+.buttonLinguagens {
   background-color: rgba(18, 18, 20, 1);
-  padding: 3px;
+  padding: 0px 8px 0px 8px ;
   border-radius: 5px;
+
+}
+.description{
+  color: var(--gray-3);
 }
 
 
 
-.icone__container{
-    display: flex;
+.icone__container {
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 20px;
+  color: var(--gray-3);
 }
 
-.icone__github{
+.icone__github {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
 }
 
-.icone__share{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px;
+.icone__share {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
 }
 
-.iconImage{
-    width: 20px;
-    height: 20px;
+.iconImage {
+  width: 20px;
+  height: 20px;
 }
